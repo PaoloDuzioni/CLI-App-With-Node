@@ -1,0 +1,20 @@
+{
+  "name": "pd-creator",
+  "version": "1.0.0",
+  "description": "My first CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Paolo Duzioni",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "shelljs": "^0.8.2"
+  },
+  "bin": {
+    "pd-creator": "./index.js"
+  }
+}
